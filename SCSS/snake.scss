@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    
+    td{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .blank{
+        background-color: rgba(0,0,0,0);
+    }
+    
+    .snake{
+        background-color: #fff;   
+    }
+    
+    .wall{
+        background-color: rgba(0,255,0,1);
+    }
+    
+    .fruit{
+        background-color: rgba(255,0,0,1);
+    }
+    
+}
